@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Lalezar&display=swap');
+*{
+    font-family: 'Cairo', sans-serif;
+
+}
+body {
+
+	line-height: 20px;
+	color: #999999;
+	font-size: 300;
+	font-size: 16px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Cairo', sans-serif;
+    font-weight: 600;
+	color: #222222;
+}
+a, a:hover, a:focus, a:active{
+    outline: none;
+}
+.login{
+    background-color:#CF5C3F;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.section-padding{
+	padding: 60px 0px;
+
+}
+h2 {
+    line-height: 20px;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+}
+hr.botm-line {
+    height: 3px;
+    width: 60px;
+    background: #ffb737;
+    position: relative;
+    border: 0;
+    margin: 20px 0 20px 0;
+}
+
+
+.navbar {
+    margin-bottom: 0px;
+    border: 0px;
+}
+.navbar {
+    border-radius: 0px;
+}
+.navbar-default {
+    background-color: #fff;
+    padding: 20px 0;
+    transition: all 0.3s;
+}
+.navbar-default {
+    background-color: transparent;
+    border: 0px;
+}
+.navbar {
+    border-radius: 0px;
+}
+
+.navbar-brand
+{
+	font-size: 32px;
+    font-family: 'Lalezar', cursive;
+}
+
+.navbar-brand img {
+    padding-top: 2px;
+    width: 120px !important;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #EA6045;
+}
+
+@media (max-width: 768px) {
+	.navbar-collapse {
+		background: rgba(28,74,90, 0.9);
+	}
+    .iframe-container
+{
+    
+}
+
+}
+
+.top-nav-collapse {
+    padding: 0;
+    background: rgba(28,74,90, 0.9);
+}
+
+.white, .white:hover, .white:focus
+{
+        font-family: 'Cairo', sans-serif;
+
+	color: #fff;
+	width: 100% !important;
+}
+.block
+{
+	display: block;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: rgba(12, 184, 182, 0.21);
+}
+.navbar-default .navbar-nav > li > a
+{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 300;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
+{
+	color: #fff;
+    text-transform: uppercase;
+    background-color: rgba(12, 184, 182, 0.21);
+}
+.affix {
+    background-color: #ffffff !important;
+}
+.affix .navbar-nav > li > a:hover, .affix .navbar-nav > li > a:focus
+{
+    background-color: rgba(12, 184, 182) !important;
+}
+#banner{
+	background: url('../img/bg-banner.jpg') no-repeat fixed;
+	background-size: cover;
+	min-height: 100vh;
+	position: relative;
+}
+.bg-color{
+	background-color: RGBA(13, 70, 83, 0.78);
+	min-height: 100vh;
+}
+.banner-info{
+	padding-top: 190px;
+}
+.banner-logo img{
+	display: inline-block;
+}
+.banner-text{
+	color: #fff;
+}
+.banner-text h1{
+    font-family: 'Cairo', sans-serif;
+	font-size: 35px;
+	text-transform: uppercase;
+	padding-bottom:15px;
+}
+.btn-appoint, .btn-appoint:hover, .btn-appoint:focus{
+	margin-top: 30px;
+	padding: 10px 20px;
+	font-size: 12px;
+	background-color: rgba(12, 184, 182, 0.91);
+	border-radius: 3px;
+	color: #fff;
+}
+.overlay-detail a i {
+    text-align: center;
+    position: absolute;
+    bottom: 25px;
+    font-size: 38px;
+    color: #fff;
+    margin: 0 auto;
+}
+.text-primary i{
+    padding-top: 8px;
+    display: inline-block;
+}
+
+/* ===========================
+   ====== Search Box ====== 
+   =========================== */
+
+   .search
+   {
+       overflow: auto;
+       border-radius: 30px;
+       -moz-border-radius: 5px;
+       -webkit-border-radius: 5px;
+   }
+
+   
+   
+   .search input[type="text"]
+   {
+       border: 0px;
+       border-radius: 10px;
+       width: 50%;
+       padding: 10px 10px;
+       color: #222222;
+   }
+   
+   .search input[type="text"]:focus
+   {
+       outline: 0;
+   }
+   
+   .search input[type="submit"]
+   {
+       border: 0px;
+       border-radius: 10px;
+
+       background: none;
+       background-color: #CF5C3F;
+       color: rgb(255, 255, 255);
+       float: center;
+       padding: 10px;
+       margin: 10px;
+       border-radius-top-right: 30px;
+       -moz-border-radius-top-right: 5px;
+       -webkit-border-radius-top-right: 5px;
+       border-radius-bottom-right: 30px
+       -moz-border-radius-bottom-right: 5px;
+       -webkit-border-radius-bottom-right: 5px;
+           cursor:pointer;
+   }
+
+
+   
+   /* ===========================
+      ====== Medua Query for Search Box ====== 
+      =========================== */
+   
+   @media only screen and (min-width : 150px) and (max-width : 780px)
+   {
+       {}
+       .search
+       {
+           width: 95%;
+           margin: 0 auto;
+       }
+   
+   
+
+.login{
+    background-color:#CF5C3F;
+    margin: 10px;
+    border-radius: 10px;
+}

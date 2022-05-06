@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Cairo', sans-serif;
+
+	background-size: cover;
+	position: relative;
+
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+    padding:0;
+    margin:0;
+}
+
+body {
+	color: #2c3e50;
+	font-size: 1em;
+	align-items: center
+    background-color: RGBA(13, 70, 83, 0.78);
+	background: url('../img/banner.jpg') no-repeat fixed;
+	background-size: cover;
+	min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+a {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: bold;
+    float: none;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.header {
+	padding: 8.5em 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.footer,
+.header-intro,
+.header-name {
+	text-align: center;
+}
+
+.header-intro {
+	margin-bottom: 0em;
+	color: #e67e22;
+	font-size: 2.25em;
+	text-shadow: 0px 1px 0px #d35400;
+    margin-bottom: 30px;
+}
+
+.header-name {
+	margin-top: -0.2em;
+	color: #e67e22;
+	font-size: 6.0em;
+	text-shadow: 0px 3px 0px #d35400;
+	font-weight: 700;
+}
+
+.about,
+.questions {
+    max-width: 37.5em;
+    margin: 0 auto;
+    margin-top: 3em;
+    line-height: 1.5em;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+a{
+	text-decoration: none;
+    margin: 20px;;
+    border:2px solid #CF5C3F;
+    background:0;
+    color:#CF5C3F;
+    cursor:pointer;
+    transition:all .3s;
+    
+}
+
+a:hover{
+    background:#CF5C3F;
+    color:#fff
+}
